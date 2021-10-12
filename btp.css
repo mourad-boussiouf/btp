@@ -1,10 +1,11 @@
 
 
 
-
+ /* Style pour le footer */ 
 
 #footer {
 display: flex;
+font-weight: 650;
   font-size: 120%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position:fixed;
@@ -16,15 +17,17 @@ display: flex;
     text-decoration: none;
   }
 
-  #footer a {
-    text-decoration: none !important;
+
+
+  #footer  a {
+    text-decoration: none ;
     color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.11);
     border-radius: 20px;
     padding: 6px;
     
     }
-    #footer a:hover {
+    #footer  a:hover {
       background-color: rgb(235, 211, 193);
     }
 
@@ -33,7 +36,7 @@ display: flex;
   #footer #menufooter {
     list-style-type: none;
     text-decoration: none;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
 line-height: 250%;
 flex: 20%;
 }
@@ -42,28 +45,104 @@ flex: 20%;
 #footer #reseauxfooter {
   list-style-type: none;
   text-decoration: none;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 line-height: 250%;
 flex: 20%;
 justify-content: left;
 }
 
 .iconsfooter{
-    max-width: 2.5%;
+    max-width: 4.5%;
     border-radius: 40%;
 }
 
 #suiveznous {
-  font-size: 120%;
+  font-size: 135%;
 }
 
 #findus {
+  padding-top: 2.5%;
   flex: 20%;
   max-width: 100%;
 
 }
 
-#contactus {
-width: 15%;
-text-align: center;
+#coordonnees {
+display: flex;
+padding-top: 1%;
+width: 50%;
+font-size: 80%;
+flex: 10%;
+margin left: 4px;
+top: 80%;
+
 }
+
+#noscoordonnees {
+font-size: 130%;
+}
+
+#ulcoordonnees {
+list-style-type: none !important;
+line-height: 250%;
+}
+
+#adresse {
+font-size: 100%;
+font-weight: 500;
+}
+
+ /* fin de la partie  style du footer */ 
+
+
+  /* partie style page réalisations */ 
+.h1-realisations{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rtitle h1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.reacontainer{
+  display: flex;
+  flex-flow: wrap row!important;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%; ;
+}
+
+.rea-annotation{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+  margin-top: 3px;
+}
+.ra{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #0D172B;
+  width: 21%;
+  text-align: center;
+  margin-right: -10%;
+  margin-left: -10%;
+}
+.rtypeconstruction{
+  color: white;
+}
+
+.rvilledateconstruction{
+  color: rgb(185, 185, 185);
+}
+
+.rea1{
+  border: #0D172B;
+  border-radius: 2px;
+
+}
+
+ /* fin de la partie  style de la page réalisations*/ 
